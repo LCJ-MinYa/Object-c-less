@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>OC中的私有变量和私有方法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>less.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -83,6 +88,11 @@
 			<true/>
 		</dict>
 		<key>3546ABF81F39987E001C4CD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>35D452AC1F4ADC9100A1AD2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
