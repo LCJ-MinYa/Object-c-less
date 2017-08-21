@@ -10,6 +10,13 @@
 #import "Phone.h"
 
 @interface Iphone : Phone
+/*
+{
+    //属性（成员变量）不能重写
+    int _cpu;
+}
+*/
+ 
 //打电话
 -(void)signaWithNumber:(NSString *)number;
 
