@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>继承的其他特性.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>继承的基本概念.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -48,6 +53,11 @@
 			<true/>
 		</dict>
 		<key>353120541F4A822D00311519</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>353120681F4A892000311519</key>
 		<dict>
 			<key>primary</key>
 			<true/>

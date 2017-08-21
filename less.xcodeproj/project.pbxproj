@@ -19,6 +19,10 @@
 		3531205E1F4A824A00311519 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3531205D1F4A824A00311519 /* Phone.m */; };
 		353120611F4A825800311519 /* Iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 353120601F4A825800311519 /* Iphone.m */; };
 		353120641F4A826800311519 /* Android.m in Sources */ = {isa = PBXBuildFile; fileRef = 353120631F4A826800311519 /* Android.m */; };
+		3531206C1F4A892000311519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3531206B1F4A892000311519 /* main.m */; };
+		353120761F4A893800311519 /* Android.m in Sources */ = {isa = PBXBuildFile; fileRef = 353120711F4A893800311519 /* Android.m */; };
+		353120771F4A893800311519 /* Iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 353120731F4A893800311519 /* Iphone.m */; };
+		353120781F4A893800311519 /* Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 353120751F4A893800311519 /* Phone.m */; };
 		3546ABFD1F39987F001C4CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3546ABFC1F39987F001C4CD9 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +55,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		353120531F4A822D00311519 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		353120671F4A892000311519 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -95,6 +108,14 @@
 		353120601F4A825800311519 /* Iphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Iphone.m; sourceTree = "<group>"; };
 		353120621F4A826800311519 /* Android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Android.h; sourceTree = "<group>"; };
 		353120631F4A826800311519 /* Android.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Android.m; sourceTree = "<group>"; };
+		353120691F4A892000311519 /* 继承的其他特性 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "继承的其他特性"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3531206B1F4A892000311519 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		353120701F4A893800311519 /* Android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Android.h; sourceTree = "<group>"; };
+		353120711F4A893800311519 /* Android.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Android.m; sourceTree = "<group>"; };
+		353120721F4A893800311519 /* Iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iphone.h; sourceTree = "<group>"; };
+		353120731F4A893800311519 /* Iphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Iphone.m; sourceTree = "<group>"; };
+		353120741F4A893800311519 /* Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		353120751F4A893800311519 /* Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phone.m; sourceTree = "<group>"; };
 		3546ABF91F39987F001C4CD9 /* less */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = less; sourceTree = BUILT_PRODUCTS_DIR; };
 		3546ABFC1F39987F001C4CD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +143,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		353120521F4A822D00311519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353120661F4A892000311519 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,6 +212,20 @@
 			path = "第一个继承demo";
 			sourceTree = "<group>";
 		};
+		3531206A1F4A892000311519 /* 继承的其他特性 */ = {
+			isa = PBXGroup;
+			children = (
+				353120701F4A893800311519 /* Android.h */,
+				353120711F4A893800311519 /* Android.m */,
+				353120721F4A893800311519 /* Iphone.h */,
+				353120731F4A893800311519 /* Iphone.m */,
+				353120741F4A893800311519 /* Phone.h */,
+				353120751F4A893800311519 /* Phone.m */,
+				3531206B1F4A892000311519 /* main.m */,
+			);
+			path = "继承的其他特性";
+			sourceTree = "<group>";
+		};
 		3546ABF01F39987E001C4CD9 = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +234,7 @@
 				353120371F4A796400311519 /* self关键字注意点 */,
 				353120451F4A7EF000311519 /* 继承的基本概念 */,
 				353120561F4A822D00311519 /* 第一个继承demo */,
+				3531206A1F4A892000311519 /* 继承的其他特性 */,
 				3546ABFA1F39987F001C4CD9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -204,6 +247,7 @@
 				353120361F4A796400311519 /* self关键字注意点 */,
 				353120441F4A7EEF00311519 /* 继承的基本概念 */,
 				353120551F4A822D00311519 /* 第一个继承demo */,
+				353120691F4A892000311519 /* 继承的其他特性 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -289,6 +333,23 @@
 			productReference = 353120551F4A822D00311519 /* 第一个继承demo */;
 			productType = "com.apple.product-type.tool";
 		};
+		353120681F4A892000311519 /* 继承的其他特性 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3531206D1F4A892000311519 /* Build configuration list for PBXNativeTarget "继承的其他特性" */;
+			buildPhases = (
+				353120651F4A892000311519 /* Sources */,
+				353120661F4A892000311519 /* Frameworks */,
+				353120671F4A892000311519 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "继承的其他特性";
+			productName = "继承的其他特性";
+			productReference = 353120691F4A892000311519 /* 继承的其他特性 */;
+			productType = "com.apple.product-type.tool";
+		};
 		3546ABF81F39987E001C4CD9 /* less */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3546AC001F39987F001C4CD9 /* Build configuration list for PBXNativeTarget "less" */;
@@ -335,6 +396,11 @@
 						DevelopmentTeam = N8578NSZEV;
 						ProvisioningStyle = Automatic;
 					};
+					353120681F4A892000311519 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N8578NSZEV;
+						ProvisioningStyle = Automatic;
+					};
 					3546ABF81F39987E001C4CD9 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = N8578NSZEV;
@@ -360,6 +426,7 @@
 				353120351F4A796400311519 /* self关键字注意点 */,
 				353120431F4A7EEF00311519 /* 继承的基本概念 */,
 				353120541F4A822D00311519 /* 第一个继承demo */,
+				353120681F4A892000311519 /* 继承的其他特性 */,
 			);
 		};
 /* End PBXProject section */
@@ -401,6 +468,17 @@
 				353120641F4A826800311519 /* Android.m in Sources */,
 				353120581F4A822D00311519 /* main.m in Sources */,
 				353120611F4A825800311519 /* Iphone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353120651F4A892000311519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353120781F4A893800311519 /* Phone.m in Sources */,
+				3531206C1F4A892000311519 /* main.m in Sources */,
+				353120761F4A893800311519 /* Android.m in Sources */,
+				353120771F4A893800311519 /* Iphone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +551,22 @@
 			name = Debug;
 		};
 		3531205B1F4A822D00311519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N8578NSZEV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3531206E1F4A892000311519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N8578NSZEV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3531206F1F4A892000311519 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = N8578NSZEV;
@@ -625,6 +719,14 @@
 			buildConfigurations = (
 				3531205A1F4A822D00311519 /* Debug */,
 				3531205B1F4A822D00311519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3531206D1F4A892000311519 /* Build configuration list for PBXNativeTarget "继承的其他特性" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3531206E1F4A892000311519 /* Debug */,
+				3531206F1F4A892000311519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
