@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>super关键字.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>第一个继承demo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -37,6 +42,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>3505C5241F4AB7970040F6FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3521ED2E1F4A6FCD008615C0</key>
 		<dict>
 			<key>primary</key>
