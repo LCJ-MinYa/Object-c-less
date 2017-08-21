@@ -19,6 +19,16 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>第一个继承demo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>继承的基本概念.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -28,6 +38,16 @@
 			<true/>
 		</dict>
 		<key>353120351F4A796400311519</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>353120431F4A7EEF00311519</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>353120541F4A822D00311519</key>
 		<dict>
 			<key>primary</key>
 			<true/>
